@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ashesashu860.github.io/dailymilkfresh/static/css/main.ec380e86.chunk.css",
+    "main.js": "/ashesashu860.github.io/dailymilkfresh/static/js/main.98bc173a.chunk.js",
+    "main.js.map": "/ashesashu860.github.io/dailymilkfresh/static/js/main.98bc173a.chunk.js.map",
+    "runtime-main.js": "/ashesashu860.github.io/dailymilkfresh/static/js/runtime-main.54fc133d.js",
+    "runtime-main.js.map": "/ashesashu860.github.io/dailymilkfresh/static/js/runtime-main.54fc133d.js.map",
+    "static/js/2.9772c6ed.chunk.js": "/ashesashu860.github.io/dailymilkfresh/static/js/2.9772c6ed.chunk.js",
+    "static/js/2.9772c6ed.chunk.js.map": "/ashesashu860.github.io/dailymilkfresh/static/js/2.9772c6ed.chunk.js.map",
+    "index.html": "/ashesashu860.github.io/dailymilkfresh/index.html",
+    "precache-manifest.66a3c7b6928313072869557970e661bd.js": "/ashesashu860.github.io/dailymilkfresh/precache-manifest.66a3c7b6928313072869557970e661bd.js",
+    "service-worker.js": "/ashesashu860.github.io/dailymilkfresh/service-worker.js",
+    "static/css/main.ec380e86.chunk.css.map": "/ashesashu860.github.io/dailymilkfresh/static/css/main.ec380e86.chunk.css.map",
+    "static/js/2.9772c6ed.chunk.js.LICENSE.txt": "/ashesashu860.github.io/dailymilkfresh/static/js/2.9772c6ed.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/ashesashu860.github.io/dailymilkfresh/static/media/dairy2.0f62294f.jpg",
+    "static/media/logo_128.png": "/ashesashu860.github.io/dailymilkfresh/static/media/logo_128.282c7df0.png",
+    "static/media/logo_512.png": "/ashesashu860.github.io/dailymilkfresh/static/media/logo_512.d9639871.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.54fc133d.js",
+    "static/js/2.9772c6ed.chunk.js",
+    "static/css/main.ec380e86.chunk.css",
+    "static/js/main.98bc173a.chunk.js"
+  ]
+}
