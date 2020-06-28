@@ -1,0 +1,75 @@
+.wrapper {
+  max-width: 100%;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  padding-top: 75px;
+}
+
+.wrapper_image {
+  background: url("./assets/dairy2.jpg") center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+  color: #fff;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.sub_wrapper {
+  padding: 1rem 4rem;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.full {
+  height: 100%;
+  width: 100%;
+}
+
+.divide {
+  height: 100%;
+  width: 100%;
+}
+
+.padding {
+  padding: 4vh;
+}
+
+.card {
+  padding: 4rem;
+  height: 50vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .divide {
+    height: 50%;
+  }
+
+  .sub_wrapper {
+    padding: 1rem 2rem;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+  label {
+    font-size: 0.6rem;
+  }
+}
