@@ -3,6 +3,7 @@ import Card from "../Card";
 import styled from "styled-components";
 import { colors } from "../../theme";
 import Menu from "./Menu";
+import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
 
 const StyledHeader = styled.header`
   position: fixed;
@@ -36,11 +37,13 @@ const Header = (props) => {
     <StyledHeader height="75px">
       <Card color={colors.primary} width="100%" height="100%">
         <HeaderWrapper>
-          <img
-            src={require("../../assets/logo_128.png")}
-            height="100%"
-            alt=""
-          />
+          <NavLink to="/" style={{ height: "100%" }}>
+            <img
+              src={require("../../assets/logo_128.png")}
+              height="100%"
+              alt=""
+            />
+          </NavLink>
           <Menu
             items={TopRightMenuItems}
             color={colors.white}
