@@ -4,7 +4,6 @@ import styled from "styled-components";
 
 const StyledNavLink = styled(NavLink)`
   display: block;
-  float: left;
   text-decoration: none;
   color: ${(props) => props.color};
   font-size: 0.9rem;
@@ -17,6 +16,7 @@ const StyledUl = styled.ul`
   & > a:not(:last-child) {
     margin-right: 1.2em;
   }
+  flex-direction: ${(props) => props.direction};
 `;
 
 const activeStyle = {
@@ -28,7 +28,11 @@ const activeStyle = {
 
 const Menu = (props) => {
   return (
-    <StyledUl>
+    <StyledUl
+      direction={props.direction}
+      style={props.style}
+      className={props.className}
+    >
       {props.items.map((item) => (
         <StyledNavLink
           to={`/${item.link}`}
@@ -38,6 +42,7 @@ const Menu = (props) => {
             backgroundColor: props.activeBackgroundColor,
           }}
           color={props.color}
+          onClick={props.onClick}
         >
           {item.label}
         </StyledNavLink>

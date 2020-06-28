@@ -17,6 +17,7 @@ const Contact = () => {
             alignItems="center"
             justify="center"
             style={{ height: "70%" }}
+            className="image_padding"
           >
             <img src={require("../assets/logo_512.png")} height="100%" alt="" />
           </Grid>
