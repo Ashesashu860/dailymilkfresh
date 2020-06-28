@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d898c9a6b3647eafb5f1083a0837fffd",
+    "revision": "0463f7718b07a1ec7acd5ae7c3f5064a",
     "url": "/dailymilkfresh/index.html"
   },
   {
-    "revision": "3c9bf444d4ef54b11952",
+    "revision": "09fd4020a0483889b621",
     "url": "/dailymilkfresh/static/css/main.a5ceb37f.chunk.css"
   },
   {
-    "revision": "a9834a7c7690eaf4d27d",
-    "url": "/dailymilkfresh/static/js/2.685893a8.chunk.js"
+    "revision": "7e2ab075d1710b7d044e",
+    "url": "/dailymilkfresh/static/js/2.26baa42b.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/dailymilkfresh/static/js/2.685893a8.chunk.js.LICENSE.txt"
+    "url": "/dailymilkfresh/static/js/2.26baa42b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3c9bf444d4ef54b11952",
-    "url": "/dailymilkfresh/static/js/main.98bc173a.chunk.js"
+    "revision": "09fd4020a0483889b621",
+    "url": "/dailymilkfresh/static/js/main.0af494ab.chunk.js"
   },
   {
     "revision": "cfc844eb12e597a9a327",
