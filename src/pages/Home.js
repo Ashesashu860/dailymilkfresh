@@ -50,7 +50,6 @@ const Home = () => {
               alignItems="center"
               justify="center"
               style={{ height: "30%", padding: "4%" }}
-              direction="column"
             >
               <img
                 src={require("../assets/font.png")}
@@ -58,14 +57,11 @@ const Home = () => {
                 alt=""
                 style={{ maxWidth: "100%" }}
               />
-              {/* <div
-              style={{
-                height: "100%",
-                width: "100%",
-                background: `url(${require("../assets/font.png")}) no-repeat`,
-                backgroundSize: "100% auto",
-              }}
-            ></div> */}
+              {/* <p>
+                Daily Milk Fresh stands for providing really good quality farm
+                fresh milk. We ensure that our milk do not have presence of any
+                harmful substance which are widely present in processed milks.
+              </p> */}
             </Grid>
             <Grid
               item

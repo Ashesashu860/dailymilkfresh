@@ -37,7 +37,7 @@ const About = () => {
               direction="column"
             >
               <h1>DAILY MILK FRESH COW MILK</h1>
-              <p style={{ textAlign: "center" }}>
+              <p>
                 Daily Milk Fresh Cow's Milk is an honest attempt to serve
                 nutritious, chemical-free and preservative-free milk. It's an
                 equivalent of serving fresh whole milk from your own farm while

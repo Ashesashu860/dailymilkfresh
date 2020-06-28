@@ -19,6 +19,7 @@ h6,
 label,
 p {
   color: #fff;
+  text-align: center;
 }
 
 .sub_wrapper {
@@ -82,5 +83,8 @@ p {
   }
   label {
     font-size: 0.8rem;
+  }
+  .image_padding {
+    padding: 12vh 4vh;
   }
 }
