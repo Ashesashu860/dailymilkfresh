@@ -45,7 +45,7 @@ const Header = (props) => {
         <Card color={colors.primary} width="100%" height="100%">
           <div className="header_wrapper">
             <NavLink
-              to="/dailymilkfresh"
+              to="/"
               style={{
                 height: "100%",
                 display: "flex",

@@ -10,7 +10,7 @@ import "./index.css";
 const App = () => (
   <BrowserRouter>
     <Header />
-    <Route exact path="/dailymilkfresh" component={Home} />
+    <Route exact path="/" component={Home} />
     <Route exact path="/about" component={About} />
     <Route exact path="/contact" component={Contact} />
     <Footer />
