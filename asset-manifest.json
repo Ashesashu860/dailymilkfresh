@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.4d693f4a.chunk.css",
-    "main.js": "/static/js/main.0af494ab.chunk.js",
-    "main.js.map": "/static/js/main.0af494ab.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.4b9eee3e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.4b9eee3e.js.map",
-    "static/js/2.208fe3c4.chunk.js": "/static/js/2.208fe3c4.chunk.js",
-    "static/js/2.208fe3c4.chunk.js.map": "/static/js/2.208fe3c4.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.8362091f4f06db18a4960e408225abab.js": "/precache-manifest.8362091f4f06db18a4960e408225abab.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.4d693f4a.chunk.css.map": "/static/css/main.4d693f4a.chunk.css.map",
-    "static/js/2.208fe3c4.chunk.js.LICENSE.txt": "/static/js/2.208fe3c4.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/dairy2.0f62294f.jpg",
-    "static/media/logo_128.png": "/static/media/logo_128.282c7df0.png",
-    "static/media/logo_512.png": "/static/media/logo_512.d9639871.png"
+    "main.css": "/dailymilkfresh/static/css/main.a5ceb37f.chunk.css",
+    "main.js": "/dailymilkfresh/static/js/main.6b8b7c66.chunk.js",
+    "main.js.map": "/dailymilkfresh/static/js/main.6b8b7c66.chunk.js.map",
+    "runtime-main.js": "/dailymilkfresh/static/js/runtime-main.18ea332a.js",
+    "runtime-main.js.map": "/dailymilkfresh/static/js/runtime-main.18ea332a.js.map",
+    "static/js/2.26baa42b.chunk.js": "/dailymilkfresh/static/js/2.26baa42b.chunk.js",
+    "static/js/2.26baa42b.chunk.js.map": "/dailymilkfresh/static/js/2.26baa42b.chunk.js.map",
+    "index.html": "/dailymilkfresh/index.html",
+    "precache-manifest.4b306e691b2b1f386ff3d5f9579e5c08.js": "/dailymilkfresh/precache-manifest.4b306e691b2b1f386ff3d5f9579e5c08.js",
+    "service-worker.js": "/dailymilkfresh/service-worker.js",
+    "static/css/main.a5ceb37f.chunk.css.map": "/dailymilkfresh/static/css/main.a5ceb37f.chunk.css.map",
+    "static/js/2.26baa42b.chunk.js.LICENSE.txt": "/dailymilkfresh/static/js/2.26baa42b.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/dailymilkfresh/static/media/dairy2.0f62294f.jpg",
+    "static/media/logo_128.png": "/dailymilkfresh/static/media/logo_128.282c7df0.png",
+    "static/media/logo_512.png": "/dailymilkfresh/static/media/logo_512.d9639871.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.4b9eee3e.js",
-    "static/js/2.208fe3c4.chunk.js",
-    "static/css/main.4d693f4a.chunk.css",
-    "static/js/main.0af494ab.chunk.js"
+    "static/js/runtime-main.18ea332a.js",
+    "static/js/2.26baa42b.chunk.js",
+    "static/css/main.a5ceb37f.chunk.css",
+    "static/js/main.6b8b7c66.chunk.js"
   ]
 }
