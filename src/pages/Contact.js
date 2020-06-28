@@ -19,7 +19,7 @@ const Contact = () => {
             style={{ height: "70%" }}
             className="image_padding"
           >
-            <img src={require("../assets/logo_512.png")} height="100%" alt="" />
+            <img src={require("../assets/logo_265.png")} height="100%" alt="" />
           </Grid>
           <Grid
             item

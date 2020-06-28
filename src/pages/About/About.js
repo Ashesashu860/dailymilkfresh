@@ -25,7 +25,7 @@ const About = () => {
               justify="center"
               style={{ height: "60%" }}
             >
-              <h1>ABOUT DAILY MILK FRESH</h1>
+              <h2>ABOUT DAILY MILK FRESH</h2>
             </Grid>
             <Grid
               item
