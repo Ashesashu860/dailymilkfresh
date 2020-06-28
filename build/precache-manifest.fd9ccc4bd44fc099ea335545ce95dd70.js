@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1671a8ba97992f04d37a348ddcc1446b",
+    "revision": "8ed77b383cc23d5059b2cf30109ad251",
     "url": "/dailymilkfresh/index.html"
   },
   {
-    "revision": "6adad3f39ee6b17e63ef",
+    "revision": "a78e3e41bcc2d7127332",
     "url": "/dailymilkfresh/static/css/main.a830cc77.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dailymilkfresh/static/js/2.7cdd8193.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6adad3f39ee6b17e63ef",
-    "url": "/dailymilkfresh/static/js/main.620107ff.chunk.js"
+    "revision": "a78e3e41bcc2d7127332",
+    "url": "/dailymilkfresh/static/js/main.d08b444f.chunk.js"
   },
   {
     "revision": "cfc844eb12e597a9a327",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dailymilkfresh/static/media/logo_128.282c7df0.png"
   },
   {
-    "revision": "d9639871a49fe6bbc712891aa9eca23b",
-    "url": "/dailymilkfresh/static/media/logo_512.d9639871.png"
+    "revision": "a7fcc108a3a8d5a52f2a34d1c0175a0f",
+    "url": "/dailymilkfresh/static/media/logo_265.a7fcc108.png"
   },
   {
     "revision": "7f848d902d8c8674b949b306c4e88a08",
