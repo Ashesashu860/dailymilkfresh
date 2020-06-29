@@ -59,8 +59,11 @@ const Contact = () => {
             alignItems="center"
             justify="center"
             style={{ height: "30%" }}
+            direction="column"
           >
-            <h1>FEEL FREE TO CONTACT US NOW!</h1>
+            <h1 style={{ paddingBottom: "2vh" }}>
+              FEEL FREE TO CONTACT US NOW!
+            </h1>
             <label>SCROLL DOWN</label>
             <ExpandMoreIcon style={{ color: colors.white }} />
           </Grid>
