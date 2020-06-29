@@ -71,6 +71,7 @@ const Contact = () => {
             <label>SCROLL DOWN</label>
             <ExpandMoreIcon style={{ color: colors.white }} />
           </Grid>
+          <div className="mobile_bottom_margin"></div>
         </div>
       </div>
       <h2 style={{ color: colors.primaryDark }} className="padding">

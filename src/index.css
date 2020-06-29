@@ -48,6 +48,10 @@ p {
   padding: 4vh;
 }
 
+.mobile_bottom_margin {
+  margin-bottom: 0;
+}
+
 @media only screen and (max-width: 600px) {
   .padding {
     padding: 2vh;
@@ -71,5 +75,8 @@ p {
   }
   .image_padding {
     padding: 12vh 4vh;
+  }
+  .mobile_bottom_margin {
+    margin-bottom: 16px;
   }
 }
