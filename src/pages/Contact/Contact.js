@@ -1,10 +1,41 @@
 import React from "react";
-import { Grid, Card } from "@material-ui/core";
+import { Grid } from "@material-ui/core";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import CallIcon from "@material-ui/icons/Call";
 import EmailIcon from "@material-ui/icons/Email";
 import { colors } from "../../theme";
 import "./contact.css";
+import List from "./List";
+
+const PhoneList = [
+  {
+    icon: <CallIcon style={{ color: colors.primaryDark }} />,
+    text: "+918601603008",
+  },
+  {
+    icon: <CallIcon style={{ color: colors.primaryDark }} />,
+    text: "+917905480842",
+  },
+  {
+    icon: <CallIcon style={{ color: colors.primaryDark }} />,
+    text: "+917292063210",
+  },
+  {
+    icon: <CallIcon style={{ color: colors.primaryDark }} />,
+    text: "+919140393094",
+  },
+  {
+    icon: <CallIcon style={{ color: colors.primaryDark }} />,
+    text: "+918168022669",
+  },
+];
+
+const EmailList = [
+  {
+    icon: <EmailIcon style={{ color: colors.primaryDark }} />,
+    text: "dailymilk0620@gmail.com",
+  },
+];
 
 const Contact = () => {
   return (
@@ -42,64 +73,35 @@ const Contact = () => {
           </Grid>
         </div>
       </div>
-      <Grid container alignItems="center" justify="center" className="padding">
-        <h2 style={{ color: colors.primaryDark }}>OUR CONTACTS</h2>
+      <h2 style={{ color: colors.primaryDark }} className="padding">
+        OUR CONTACTS
+      </h2>
+      <Grid
+        container
+        alignItems="center"
+        justify="center"
+        style={{ backgroundColor: colors.grey.light }}
+        className="padding"
+      >
         <Grid
           item
           container
           alignItems="center"
-          justify="space-around"
-          className="padding"
-          spacing={4}
+          justify="center"
+          sm={6}
+          xs={12}
         >
-          <Grid item sm={6} xs={12}>
-            <Card className="card">
-              <Grid
-                item
-                container
-                alignItems="center"
-                justify="center"
-                direction="column"
-              >
-                <CallIcon
-                  style={{ color: colors.primaryDark, marginBottom: "4vh" }}
-                />
-                <label style={{ color: colors.grey.normal }}>
-                  +918601603008
-                </label>
-                <label style={{ color: colors.grey.normal }}>
-                  +917905480842
-                </label>
-                <label style={{ color: colors.grey.normal }}>
-                  +917292063210
-                </label>
-                <label style={{ color: colors.grey.normal }}>
-                  +919140393094
-                </label>
-                <label style={{ color: colors.grey.normal }}>
-                  +918168022669
-                </label>
-              </Grid>
-            </Card>
-          </Grid>
-          <Grid item sm={6} xs={12}>
-            <Card className="card">
-              <Grid
-                item
-                container
-                alignItems="center"
-                justify="center"
-                direction="column"
-              >
-                <EmailIcon
-                  style={{ color: colors.primaryDark, marginBottom: "4vh" }}
-                />
-                <label style={{ color: colors.grey.normal }}>
-                  dailymilk0620@gmail.com
-                </label>
-              </Grid>
-            </Card>
-          </Grid>
+          <List title="Call Us" items={PhoneList} />
+        </Grid>
+        <Grid
+          item
+          container
+          alignItems="center"
+          justify="center"
+          sm={6}
+          xs={12}
+        >
+          <List title="Email" items={EmailList} />
         </Grid>
       </Grid>
     </>
