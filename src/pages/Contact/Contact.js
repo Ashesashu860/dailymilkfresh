@@ -1,68 +1,108 @@
 import React from "react";
-import { Grid } from "@material-ui/core";
+import { Grid, Card } from "@material-ui/core";
+import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+import CallIcon from "@material-ui/icons/Call";
+import EmailIcon from "@material-ui/icons/Email";
+import { colors } from "../../theme";
+import "./contact.css";
 
 const Contact = () => {
   return (
-    <div className="wrapper wrapper_image">
-      <div className="sub_wrapper">
-        <Grid
-          container
-          alignItems="center"
-          justify="center"
-          direction="column"
-          style={{ height: "100%" }}
-        >
+    <>
+      <div className="wrapper wrapper_image">
+        <div className="sub_wrapper" style={{ flexDirection: "column" }}>
           <Grid
-            item
             container
             alignItems="center"
             justify="center"
             style={{ height: "60%" }}
-            className="image_padding"
           >
             <img
               src={require("../../assets/logo_265.png")}
-              height="100%"
+              className="contact_logo"
               alt=""
             />
           </Grid>
           <Grid
-            item
             container
             alignItems="center"
             justify="center"
-            style={{ height: "40%" }}
-            className="padded_content"
+            style={{ height: "30%" }}
           >
             <h1>FEEL FREE TO CONTACT US NOW!</h1>
-            <Grid
-              item
-              container
-              alignItems="center"
-              justify="center"
-              direction="row"
-              spacing={2}
-            >
-              <Grid item md={2}>
-                <label>+918601603008</label>
+          </Grid>
+          <Grid
+            container
+            alignItems="center"
+            justify="center"
+            style={{ height: "10%" }}
+          >
+            <label>SCROLL DOWN</label>
+            <ExpandMoreIcon style={{ color: colors.white }} />
+          </Grid>
+        </div>
+      </div>
+      <Grid container alignItems="center" justify="center" className="padding">
+        <h2 style={{ color: colors.primaryDark }}>OUR CONTACTS</h2>
+        <Grid
+          item
+          container
+          alignItems="center"
+          justify="space-around"
+          className="padding"
+          spacing={4}
+        >
+          <Grid item sm={6} xs={12}>
+            <Card className="card">
+              <Grid
+                item
+                container
+                alignItems="center"
+                justify="center"
+                direction="column"
+              >
+                <CallIcon
+                  style={{ color: colors.primaryDark, marginBottom: "4vh" }}
+                />
+                <label style={{ color: colors.grey.normal }}>
+                  +918601603008
+                </label>
+                <label style={{ color: colors.grey.normal }}>
+                  +917905480842
+                </label>
+                <label style={{ color: colors.grey.normal }}>
+                  +917292063210
+                </label>
+                <label style={{ color: colors.grey.normal }}>
+                  +919140393094
+                </label>
+                <label style={{ color: colors.grey.normal }}>
+                  +918168022669
+                </label>
               </Grid>
-              <Grid item md={2}>
-                <label>+917905480842</label>
+            </Card>
+          </Grid>
+          <Grid item sm={6} xs={12}>
+            <Card className="card">
+              <Grid
+                item
+                container
+                alignItems="center"
+                justify="center"
+                direction="column"
+              >
+                <EmailIcon
+                  style={{ color: colors.primaryDark, marginBottom: "4vh" }}
+                />
+                <label style={{ color: colors.grey.normal }}>
+                  dailymilk0620@gmail.com
+                </label>
               </Grid>
-              <Grid item md={2}>
-                <label>+917292063210</label>
-              </Grid>
-              <Grid item md={2}>
-                <label>+919140393094</label>
-              </Grid>
-              <Grid item md={2}>
-                <label>+918168022669</label>
-              </Grid>
-            </Grid>
+            </Card>
           </Grid>
         </Grid>
-      </div>
-    </div>
+      </Grid>
+    </>
   );
 };
 

@@ -28,20 +28,21 @@ const About = () => {
               <h2>ABOUT DAILY MILK FRESH</h2>
             </Grid>
             <Grid
-              item
               container
               alignItems="center"
               justify="center"
               style={{ height: "40%" }}
               className="padding"
             >
-              <h1>DAILY MILK FRESH COW MILK</h1>
-              <p>
-                Daily Milk Fresh Cow's Milk is an honest attempt to serve
-                nutritious, chemical-free and preservative-free milk. It's an
-                equivalent of serving fresh whole milk from your own farm while
-                being present in an urban living.
-              </p>
+              <div>
+                <h1>DAILY MILK FRESH COW MILK</h1>
+                <p>
+                  Daily Milk Fresh Cow's Milk is an honest attempt to serve
+                  nutritious, chemical-free and preservative-free milk. It's an
+                  equivalent of serving fresh whole milk from your own farm
+                  while being present in an urban living.
+                </p>
+              </div>
             </Grid>
           </Grid>
         </Grid>
