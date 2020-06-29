@@ -61,17 +61,9 @@ const Contact = () => {
             style={{ height: "30%" }}
           >
             <h1>FEEL FREE TO CONTACT US NOW!</h1>
-          </Grid>
-          <Grid
-            container
-            alignItems="center"
-            justify="center"
-            style={{ height: "10%" }}
-          >
             <label>SCROLL DOWN</label>
             <ExpandMoreIcon style={{ color: colors.white }} />
           </Grid>
-          <div className="mobile_bottom_margin"></div>
         </div>
       </div>
       <h2 style={{ color: colors.primaryDark }} className="padding">
