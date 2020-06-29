@@ -31,18 +31,7 @@ p {
   justify-content: center;
 }
 
-.flex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .full {
-  height: 100%;
-  width: 100%;
-}
-
-.divide {
   height: 100%;
   width: 100%;
 }
@@ -53,16 +42,13 @@ p {
 
 .card {
   padding: 4rem;
-  height: 50vh;
+  max-height: 50vh;
 }
 .image_padding {
   padding: 4vh;
 }
 
 @media only screen and (max-width: 600px) {
-  .divide {
-    height: 50%;
-  }
   .padding {
     padding: 2vh;
   }
@@ -75,14 +61,13 @@ p {
     padding: 1rem 2rem;
   }
   h1 {
-    font-size: 1rem;
-    padding-bottom: 3vh;
+    font-size: 1.2rem;
   }
   p {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
   label {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   .image_padding {
     padding: 12vh 4vh;

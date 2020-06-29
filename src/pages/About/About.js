@@ -34,7 +34,6 @@ const About = () => {
               justify="center"
               style={{ height: "40%" }}
               className="padding"
-              direction="column"
             >
               <h1>DAILY MILK FRESH COW MILK</h1>
               <p>
