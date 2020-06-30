@@ -1,0 +1,27 @@
+.home_landing {
+  height: 100vh;
+}
+
+@media only screen and (max-width: 900px) {
+  .home_landing {
+    height: calc(100vh * 0.8) !important;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .home_landing {
+    height: calc(100vh * 0.7) !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .home_landing {
+    height: calc(100vh * 0.6) !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .home_landing {
+    height: calc(100vh * 0.4) !important;
+  }
+}

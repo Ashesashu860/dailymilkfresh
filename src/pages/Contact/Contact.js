@@ -6,26 +6,33 @@ import EmailIcon from "@material-ui/icons/Email";
 import { colors } from "../../theme";
 import "./contact.css";
 import List from "./List";
+import styled from "styled-components";
+
+const StyledLink = styled.a`
+  display: block;
+  &:hover {
+    background-color: ${colors.white};
+    border-radius: 50%;
+    padding: 8px;
+  }
+  transition: 0.3s;
+`;
 
 const PhoneList = [
   {
-    icon: <CallIcon style={{ color: colors.primaryDark }} />,
+    icon: (
+      <StyledLink href="tel:+918601603008">
+        <CallIcon style={{ color: colors.primaryDark }} />
+      </StyledLink>
+    ),
     text: "+918601603008",
   },
   {
-    icon: <CallIcon style={{ color: colors.primaryDark }} />,
-    text: "+917905480842",
-  },
-  {
-    icon: <CallIcon style={{ color: colors.primaryDark }} />,
-    text: "+917292063210",
-  },
-  {
-    icon: <CallIcon style={{ color: colors.primaryDark }} />,
-    text: "+919140393094",
-  },
-  {
-    icon: <CallIcon style={{ color: colors.primaryDark }} />,
+    icon: (
+      <StyledLink href="tel:+918601603008">
+        <CallIcon style={{ color: colors.primaryDark }} />
+      </StyledLink>
+    ),
     text: "+918168022669",
   },
 ];
