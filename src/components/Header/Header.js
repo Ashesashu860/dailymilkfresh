@@ -56,7 +56,7 @@ const Header = (props) => {
             >
               <img
                 src={require("../../assets/logo_128.png")}
-                height="100%"
+                height="140%"
                 alt=""
               />
               <h3>Daily Milk Fresh</h3>
