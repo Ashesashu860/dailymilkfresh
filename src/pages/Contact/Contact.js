@@ -29,7 +29,7 @@ const PhoneList = [
   },
   {
     icon: (
-      <StyledLink href="tel:+918601603008">
+      <StyledLink href="tel:+918168022669">
         <CallIcon style={{ color: colors.primaryDark }} />
       </StyledLink>
     ),

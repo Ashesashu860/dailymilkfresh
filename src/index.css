@@ -42,7 +42,7 @@ p {
 
 .card {
   padding: 4rem;
-  max-height: 50vh;
+  min-height: 54vh;
 }
 .image_padding {
   padding: 4vh;
@@ -59,7 +59,7 @@ p {
 
   .card {
     padding: 2rem;
-    height: auto;
+    min-height: auto;
   }
   .sub_wrapper {
     padding: 1rem 2rem;

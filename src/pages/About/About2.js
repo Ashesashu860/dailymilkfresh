@@ -1,6 +1,7 @@
 import React from "react";
 import { Grid, Card } from "@material-ui/core";
 import { colors } from "../../theme";
+import "./about.css";
 
 const About2 = () => {
   return (
