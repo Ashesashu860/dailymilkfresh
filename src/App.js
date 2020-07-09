@@ -1,11 +1,12 @@
 import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
-import Home from "./pages/Home";
+import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import "./index.css";
+import "./headings.css";
 
 const App = () => (
   <BrowserRouter>

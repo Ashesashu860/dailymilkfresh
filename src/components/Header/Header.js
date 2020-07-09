@@ -5,14 +5,12 @@ import { colors } from "../../theme";
 import Menu from "./Menu";
 import { IconButton, Drawer } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
-import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
+import { NavLink } from "react-router-dom";
 import "./header.css";
 
-const StyledHeader = styled.header`
+const StyledHeader = styled(Card)`
   position: fixed;
-  width: 100vw;
-  max-width: 100%;
-  height: ${(props) => props.height};
+  z-index: 1000;
 `;
 
 const TopRightMenuItems = [
@@ -41,46 +39,49 @@ const Header = (props) => {
 
   return (
     <>
-      <StyledHeader height="75px">
-        <Card color={colors.primary} width="100%" height="100%">
-          <div className="header_wrapper">
-            <NavLink
-              to="/"
-              style={{
-                height: "100%",
-                display: "flex",
-                flexDirection: "row",
-                textDecoration: "none",
-                alignItems: "center",
-              }}
-            >
-              <img
-                src={require("../../assets/logo_128.png")}
-                height="140%"
-                alt=""
-              />
-              <h3>Daily Milk Fresh</h3>
-            </NavLink>
-            <div className="visible_on_big">
-              <Menu
-                items={TopRightMenuItems}
-                color={colors.white}
-                activeColor={colors.white}
-                activeBackgroundColor={colors.primaryDark}
-                direction="row"
-              />
-            </div>
-            <div className="visible_on_small">
-              <IconButton
-                edge="end"
-                aria-label="menu"
-                onClick={(event) => handleToggleDrawer(event)}
-              >
-                <MenuIcon style={{ color: "white" }} />
-              </IconButton>
-            </div>
+      <StyledHeader
+        height="75px"
+        className="side_padding"
+        color={colors.primary}
+        width="100%"
+      >
+        <div className="header_wrapper">
+          <NavLink
+            to="/"
+            style={{
+              height: "100%",
+              display: "flex",
+              flexDirection: "row",
+              textDecoration: "none",
+              alignItems: "center",
+            }}
+          >
+            <img
+              src={require("../../assets/logo_128.png")}
+              height="140%"
+              alt=""
+            />
+            <h6>Daily Milk Fresh</h6>
+          </NavLink>
+          <div className="visible_on_big">
+            <Menu
+              items={TopRightMenuItems}
+              color={colors.white}
+              activeColor={colors.white}
+              activeBackgroundColor={colors.primaryDark}
+              direction="row"
+            />
           </div>
-        </Card>
+          <div className="visible_on_small">
+            <IconButton
+              edge="end"
+              aria-label="menu"
+              onClick={(event) => handleToggleDrawer(event)}
+            >
+              <MenuIcon style={{ color: "white" }} />
+            </IconButton>
+          </div>
+        </div>
       </StyledHeader>
       <React.Fragment>
         <Drawer

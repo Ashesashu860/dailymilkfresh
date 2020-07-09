@@ -25,7 +25,7 @@ const About = () => {
               justify="center"
               style={{ height: "60%" }}
             >
-              <h2>ABOUT DAILY MILK FRESH</h2>
+              <h3>ABOUT DAILY MILK FRESH</h3>
             </Grid>
             <Grid
               container
@@ -35,7 +35,7 @@ const About = () => {
               className="padding"
             >
               <div>
-                <h1>DAILY MILK FRESH COW MILK</h1>
+                <h4>DAILY MILK FRESH COW MILK</h4>
                 <p>
                   Daily Milk Fresh Cow's Milk is an honest attempt to serve
                   nutritious, chemical-free and preservative-free milk. It's an

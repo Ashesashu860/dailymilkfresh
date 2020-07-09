@@ -68,17 +68,17 @@ const Contact = () => {
             style={{ height: "30%" }}
             direction="column"
           >
-            <h1 style={{ paddingBottom: "2vh" }}>
+            <h3 style={{ paddingBottom: "2vh" }}>
               FEEL FREE TO CONTACT US NOW!
-            </h1>
+            </h3>
             <label>SCROLL DOWN</label>
             <ExpandMoreIcon style={{ color: colors.white }} />
           </Grid>
         </div>
       </div>
-      <h2 style={{ color: colors.primaryDark }} className="padding">
+      <h4 style={{ color: colors.primaryDark }} className="padding">
         OUR CONTACTS
-      </h2>
+      </h4>
       <Grid
         container
         alignItems="center"

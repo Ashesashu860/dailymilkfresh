@@ -10,12 +10,6 @@
   background: url("./assets/dairy2.jpg") center;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
 label,
 p {
   color: #fff;
@@ -31,11 +25,6 @@ p {
   justify-content: center;
 }
 
-.full {
-  height: 100%;
-  width: 100%;
-}
-
 .padding {
   padding: 4vh;
 }
@@ -44,17 +33,25 @@ p {
   padding: 4rem;
   min-height: 54vh;
 }
-.image_padding {
-  padding: 4vh;
+
+.full {
+  height: 100%;
+  width: 100%;
 }
 
-.mobile_bottom_margin {
-  margin-bottom: 0;
+.side_padding {
+  padding-right: 12vh;
+  padding-left: 12vh;
 }
 
 @media only screen and (max-width: 600px) {
   .padding {
     padding: 2vh;
+  }
+
+  .side_padding {
+    padding-right: 4vh;
+    padding-left: 4vh;
   }
 
   .card {
@@ -64,19 +61,10 @@ p {
   .sub_wrapper {
     padding: 1rem 2rem;
   }
-  h1 {
-    font-size: 1.2rem;
-  }
   p {
     font-size: 0.8rem;
   }
   label {
     font-size: 1rem;
-  }
-  .image_padding {
-    padding: 12vh 4vh;
-  }
-  .mobile_bottom_margin {
-    margin-bottom: 16px;
   }
 }

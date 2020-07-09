@@ -6,7 +6,7 @@ import "./about.css";
 const About2 = () => {
   return (
     <Grid container alignItems="center" justify="center" className="padding">
-      <h2 style={{ color: colors.primaryDark }}>OUR QUALITY</h2>
+      <h4 style={{ color: colors.primaryDark, padding: "0" }}>OUR QUALITY</h4>
       <Grid
         item
         container
@@ -16,11 +16,11 @@ const About2 = () => {
         spacing={4}
       >
         <Grid item sm={6} xs={12}>
-          <Card className="card">
-            <h3 style={{ color: colors.primary, paddingBottom: "0.8rem" }}>
+          <Card className="card" elevation={4}>
+            <h6 style={{ color: colors.primary, paddingBottom: "0.8rem" }}>
               Real Fresh A-Grade Whole Milk
-            </h3>
-            <p style={{ color: colors.grey.normal, paddingBottom: "0.8rem" }}>
+            </h6>
+            <p style={{ color: colors.grey.normal }}>
               We serve "Raw Unprocessed Chilled Milk" milked within 12-24 hours
               before delivery. This is quite unique unlike other brands where
               milk is 4-5 days old and heavily processed for consistency. We
@@ -31,11 +31,11 @@ const About2 = () => {
           </Card>
         </Grid>
         <Grid item sm={6} xs={12}>
-          <Card className="card">
-            <h3 style={{ color: colors.primary, paddingBottom: "0.8rem" }}>
+          <Card className="card" elevation={4}>
+            <h6 style={{ color: colors.primary, paddingBottom: "0.8rem" }}>
               No Preservatives And Adulterants
-            </h3>
-            <p style={{ color: colors.grey.normal, paddingBottom: "0.8rem" }}>
+            </h6>
+            <p style={{ color: colors.grey.normal }}>
               The milk obtained from the cows is unadulterated and does not have
               any preservatives (such as formalin), which is widely used by
               local dairy vendors. We ensure the milk stays safe by using cold
@@ -44,11 +44,11 @@ const About2 = () => {
           </Card>
         </Grid>
         <Grid item sm={6} xs={12}>
-          <Card className="card">
-            <h3 style={{ color: colors.primary, paddingBottom: "0.8rem" }}>
+          <Card className="card" elevation={4}>
+            <h6 style={{ color: colors.primary, paddingBottom: "0.8rem" }}>
               No manipulation with Natural Milking Cycle{" "}
-            </h3>
-            <p style={{ color: colors.grey.normal, paddingBottom: "0.8rem" }}>
+            </h6>
+            <p style={{ color: colors.grey.normal }}>
               The cows are not given any hormonal injections to boost the milk
               yield. Studies have linked the consumption of milk contaminated
               with oxytocin to the early onset of puberty in children, which is
@@ -57,11 +57,11 @@ const About2 = () => {
           </Card>
         </Grid>
         <Grid item sm={6} xs={12}>
-          <Card className="card">
-            <h3 style={{ color: colors.primary, paddingBottom: "0.8rem" }}>
-              Environment Friendly{" "}
-            </h3>
-            <p style={{ color: colors.grey.normal, paddingBottom: "0.8rem" }}>
+          <Card className="card" elevation={4}>
+            <h6 style={{ color: colors.primary, paddingBottom: "0.8rem" }}>
+              Environment Friendly
+            </h6>
+            <p style={{ color: colors.grey.normal }}>
               Glass is one of the safest materials, non-toxic and non-reactive,
               as compared to other packaging materials such as plastic, which
               can leach into food products. Our brand values don’t go with

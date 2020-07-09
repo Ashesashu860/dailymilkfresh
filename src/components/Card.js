@@ -10,7 +10,12 @@ const StyledCard = styled.div`
 
 const Card = (props) => {
   return (
-    <StyledCard color={props.color} width={props.width} height={props.height}>
+    <StyledCard
+      color={props.color}
+      width={props.width}
+      height={props.height}
+      className={props.className}
+    >
       {props.children}
     </StyledCard>
   );
