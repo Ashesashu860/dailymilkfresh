@@ -12,39 +12,22 @@ const Home = () => {
       <div className="wrapper_image wrapper ">
         <Grid container className=" full" alignItems="center" justify="center">
           <Grid
-            item
             container
-            alignItems="center"
-            justify="center"
-            className="home_logo padding side_padding"
+            className="home_header_container padding side_padding"
           >
-            <img
-              src={require("../../assets/font.png")}
-              height="100%"
-              alt=""
-              style={{ maxWidth: "700px" }}
-            />
+            <Grid container className="home_header background_image"></Grid>
           </Grid>
-          <Grid
-            item
-            container
-            alignItems="center"
-            justify="center"
-            className="home_body side_padding"
-            style={{ flexWrap: "nowrap" }}
-          >
+
+          <Grid container className="home_body padding side_padding">
             <h1
               style={{
                 color: colors.primary,
               }}
-              className="home_body_text"
+              className="home_body_left"
             >
               FARM FRESH COW AND BUFFALO MILK
             </h1>
-
-            <div className="home_body_image">
-              <img src={require("../../assets/bottel.png")} alt="" />
-            </div>
+            <div className="home_body_right home_body_image background_image"></div>
           </Grid>
           <HomeFooter className="home_footer" />
         </Grid>

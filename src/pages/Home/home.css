@@ -1,19 +1,35 @@
-.home_logo {
+.background_image {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.home_header_container {
   height: 20%;
+  align-self: flex-start;
 }
 
-.home_body {
-  height: 40vh;
+.home_header {
+  background-image: url("../../assets/font.png");
 }
 
-.home_body_text {
+.home_body_left {
+  width: 60%;
+  margin: auto;
   text-align: left;
   font-family: "Alegreya Sans", sans-serif;
 }
 
+.home_body_right {
+  width: 40%;
+}
+
+.home_body {
+  height: 65%;
+}
+
 .home_body_image {
-  padding: 4vh;
-  height: 100%;
+  background-image: url("../../assets/bottel.png");
 }
 
 .home_footer {
@@ -22,39 +38,28 @@
   align-self: flex-end;
 }
 
-.home_body_image img {
-  max-height: 100%;
-}
-
-@media only screen and (max-width: 1080px) {
-  .home_body_image {
-    padding: 6vh;
-    height: 100%;
-  }
-}
-
-@media only screen and (max-width: 750px) {
-  .home_logo {
+@media only screen and (max-width: 700px) {
+  .home_header_container {
     height: 15%;
+    align-self: flex-start;
   }
 
   .home_body {
-    flex-direction: column;
-    height: 40vh;
+    height: 70%;
   }
 
-  .home_body_text {
-    text-align: left;
-    font-family: "Alegreya Sans", sans-serif;
+  .home_body h1 {
+    font-size: 8vw;
+    text-align: center;
   }
 
-  .home_footer {
-    height: 10%;
-    padding: 0;
+  .home_body_left {
+    width: 100%;
+    height: 30%;
   }
 
-  .home_body_image img {
-    max-width: 100%;
-    max-height: auto;
+  .home_body_right {
+    width: 100%;
+    height: 70%;
   }
 }

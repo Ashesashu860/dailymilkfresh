@@ -12,6 +12,7 @@ const HomeFooter = (props) => {
       className={`side_padding ${props.className}`}
       style={{
         backgroundColor: "#00000099",
+        flexWrap: "nowrap",
       }}
     >
       <label>FRESH MILK AT YOUR DOORSTEP</label>
