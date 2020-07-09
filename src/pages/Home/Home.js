@@ -9,7 +9,10 @@ import About2 from "../About/About2";
 const Home = () => {
   return (
     <>
-      <div className="wrapper_image wrapper ">
+      <div
+        className="wrapper_image wrapper "
+        style={{ height: window.innerHeight }}
+      >
         <Grid container className=" full" alignItems="center" justify="center">
           <Grid
             container
