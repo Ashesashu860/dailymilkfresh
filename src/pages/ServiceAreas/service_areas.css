@@ -1,0 +1,9 @@
+.service_areas_heading {
+  font-size: 6vw;
+}
+
+@media only screen and (max-width: 600px) {
+  .service_areas_heading {
+    font-size: 10vw;
+  }
+}

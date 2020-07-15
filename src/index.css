@@ -13,6 +13,13 @@
   background-repeat: no-repeat;
 }
 
+.wrapper_image_grey {
+  background-image: url("./assets/dairy1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 label,
 p {
   color: #fff;

@@ -8,9 +8,11 @@ import TableCell from "@material-ui/core/TableCell";
 const List = (props) => {
   return (
     <Grid>
-      <h4 style={{ color: colors.primaryDark }} className="padding">
-        {props.title}
-      </h4>
+      {props.title && (
+        <h4 style={{ color: colors.primaryDark }} className="padding">
+          {props.title}
+        </h4>
+      )}
       <Table>
         <TableBody>
           {props.items.map((item) => (

@@ -19,6 +19,10 @@ const TopRightMenuItems = [
     label: "About",
   },
   {
+    link: "service_areas",
+    label: "Service Areas",
+  },
+  {
     link: "contact",
     label: "Contact Us",
   },

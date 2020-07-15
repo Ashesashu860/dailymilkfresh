@@ -5,6 +5,7 @@ import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import ServiceAreas from "./pages/ServiceAreas/ServiceAreas";
 import "./index.css";
 import "./headings.css";
 
@@ -13,6 +14,7 @@ const App = () => (
     <Header />
     <Route exact path="/" component={Home} />
     <Route exact path="/about" component={About} />
+    <Route exact path="/service_areas" component={ServiceAreas} />
     <Route exact path="/contact" component={Contact} />
     <Footer />
   </BrowserRouter>
