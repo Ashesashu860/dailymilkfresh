@@ -51,7 +51,7 @@ const ServiceAreas = () => {
             style={{ color: colors.primaryDark }}
             className="service_areas_heading"
           >
-            Serviceable Areas
+            SERVICEABLE AREAS
           </h2>
         </Grid>
         <Grid
@@ -62,7 +62,7 @@ const ServiceAreas = () => {
           sm={12}
           md={6}
         >
-          <Paper elevation={6} style={{ padding: "6vw 8vw", opacity: "0.7" }}>
+          <Paper elevation={6} style={{ padding: "6vw 8vw", opacity: "0.9" }}>
             <List items={ServiceAreasList} />
           </Paper>
         </Grid>

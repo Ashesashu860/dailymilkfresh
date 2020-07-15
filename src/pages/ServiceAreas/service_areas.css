@@ -1,5 +1,6 @@
 .service_areas_heading {
   font-size: 6vw;
+  font-family: "Alegreya Sans", sans-serif;
 }
 
 @media only screen and (max-width: 600px) {
