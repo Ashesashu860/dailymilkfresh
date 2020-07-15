@@ -22,6 +22,10 @@ const TopRightMenuItems = [
     link: "contact",
     label: "Contact Us",
   },
+  {
+    link: "how_it_works",
+    label: "How it Works",
+  },
 ];
 
 const Header = (props) => {

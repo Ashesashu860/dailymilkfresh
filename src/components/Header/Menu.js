@@ -6,7 +6,7 @@ const StyledUl = styled.ul`
   display: flex;
   align-items: center;
   & > a:not(:last-child) {
-    margin-right: 1.2em;
+    margin-right: 1.8em;
   }
   flex-direction: ${(props) => props.direction};
 `;

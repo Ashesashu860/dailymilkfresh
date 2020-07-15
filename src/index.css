@@ -6,8 +6,20 @@
   padding-top: 75px;
 }
 
+.unbound_wrapper {
+  max-width: 100%;
+  padding-top: 75px;
+}
+
 .wrapper_image {
   background-image: url("./assets/dairy2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wrapper_image_grey {
+  background-image: url("./assets/dairy1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
