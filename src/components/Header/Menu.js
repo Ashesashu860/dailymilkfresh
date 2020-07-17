@@ -1,13 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 import { StyledNavLink } from "../styles";
+import "./menu.css";
 
 const StyledUl = styled.ul`
   display: flex;
   align-items: center;
-  & > a:not(:last-child) {
-    margin-right: 1.2em;
-  }
   flex-direction: ${(props) => props.direction};
 `;
 
@@ -23,7 +21,7 @@ const Menu = (props) => {
     <StyledUl
       direction={props.direction}
       style={props.style}
-      className={props.className}
+      className={`styled_ul ${props.className}`}
     >
       {props.items.map((item) => (
         <StyledNavLink

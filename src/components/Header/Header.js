@@ -15,12 +15,16 @@ const StyledHeader = styled(Card)`
 
 const TopRightMenuItems = [
   {
-    link: "about",
-    label: "About",
+    link: "products",
+    label: "Products",
   },
   {
     link: "service_areas",
     label: "Service Areas",
+  },
+  {
+    link: "about",
+    label: "About",
   },
   {
     link: "contact",
@@ -93,11 +97,6 @@ const Header = (props) => {
           open={toggleDrawer}
           onClose={(event) => handleToggleDrawer(event)}
         >
-          {/* <div>
-            {TopRightMenuItems.map((item) => (
-              <div>{item.label}</div>
-            ))}
-          </div> */}
           <img
             src={require("../../assets/logo_128.png")}
             width="100%"

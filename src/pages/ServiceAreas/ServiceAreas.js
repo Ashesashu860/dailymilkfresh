@@ -48,7 +48,7 @@ const ServiceAreas = () => {
           md={6}
         >
           <h2
-            style={{ color: colors.primaryDark }}
+            style={{ color: colors.primary }}
             className="service_areas_heading"
           >
             SERVICEABLE AREAS
