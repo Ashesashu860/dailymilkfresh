@@ -97,11 +97,6 @@ const Header = (props) => {
           open={toggleDrawer}
           onClose={(event) => handleToggleDrawer(event)}
         >
-          {/* <div>
-            {TopRightMenuItems.map((item) => (
-              <div>{item.label}</div>
-            ))}
-          </div> */}
           <img
             src={require("../../assets/logo_128.png")}
             width="100%"
@@ -114,7 +109,7 @@ const Header = (props) => {
             activeColor={colors.primaryDark}
             activeBackgroundColor={colors.grey.light}
             direction="column"
-            className="padding"
+            className="padding align_drawer_menu"
             onClick={(event) => handleToggleDrawer(event)}
           />
         </Drawer>
