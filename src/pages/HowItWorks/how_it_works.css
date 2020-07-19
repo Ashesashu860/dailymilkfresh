@@ -1,0 +1,33 @@
+.display_on_big {
+  display: block;
+}
+
+.display_on_small {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .display_on_big {
+    display: none;
+  }
+
+  .full_width_on_small {
+    flex: 1 !important;
+  }
+
+  .display_on_small {
+    display: block;
+  }
+
+  .timeline_item::before {
+    display: none;
+  }
+  .timeline_dot {
+    align-self: auto !important;
+  }
+  .timeline_dot p {
+    text-align: center !important;
+    max-width: 140px;
+    height: 140px;
+  }
+}

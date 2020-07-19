@@ -30,6 +30,10 @@ const TopRightMenuItems = [
     link: "contact",
     label: "Contact Us",
   },
+  {
+    link: "how_it_works",
+    label: "How it Works",
+  },
 ];
 
 const Header = (props) => {
@@ -109,7 +113,7 @@ const Header = (props) => {
             activeColor={colors.primaryDark}
             activeBackgroundColor={colors.grey.light}
             direction="column"
-            className="padding"
+            className="padding align_drawer_menu"
             onClick={(event) => handleToggleDrawer(event)}
           />
         </Drawer>

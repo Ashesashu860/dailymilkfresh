@@ -5,6 +5,8 @@ import "../../index.css";
 import { colors } from "../../theme";
 import HomeFooter from "./HomeFooter";
 import About2 from "../About/About2";
+import HowItWorks from "../HowItWorks/HowItWorks";
+import Contact2 from "../Contact/Contact2";
 
 const Home = () => {
   return (
@@ -36,6 +38,8 @@ const Home = () => {
         </Grid>
       </div>
       <About2 />
+      <HowItWorks />
+      <Contact2 />
     </>
   );
 };

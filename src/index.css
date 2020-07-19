@@ -6,6 +6,11 @@
   padding-top: 75px;
 }
 
+.unbound_wrapper {
+  max-width: 100%;
+  padding-top: 75px;
+}
+
 .wrapper_image {
   background-image: url("./assets/dairy2.jpg");
   background-size: cover;
