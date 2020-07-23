@@ -16,6 +16,9 @@
 .home_body_left {
   width: 60%;
   margin: auto;
+}
+
+.home_body_left_text {
   text-align: left;
   font-family: "Alegreya Sans", sans-serif;
 }

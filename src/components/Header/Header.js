@@ -15,6 +15,10 @@ const StyledHeader = styled(Card)`
 
 const TopRightMenuItems = [
   {
+    link: "how_it_works",
+    label: "How it Works",
+  },
+  {
     link: "products",
     label: "Products",
   },
@@ -29,10 +33,6 @@ const TopRightMenuItems = [
   {
     link: "contact",
     label: "Contact Us",
-  },
-  {
-    link: "how_it_works",
-    label: "How it Works",
   },
 ];
 

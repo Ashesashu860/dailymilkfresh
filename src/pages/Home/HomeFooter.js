@@ -15,8 +15,8 @@ const HomeFooter = (props) => {
         flexWrap: "nowrap",
       }}
     >
-      <label>FRESH MILK AT YOUR DOORSTEP</label>
-      <StyledNavLink to="/contact" color="#fff">
+      <label>First Free Trial in Lucknow on 27th July 2020</label>
+      <StyledNavLink to="/products" color="#fff">
         <StyledButton>ORDER NOW</StyledButton>
       </StyledNavLink>
     </Grid>

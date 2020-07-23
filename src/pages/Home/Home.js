@@ -24,14 +24,16 @@ const Home = () => {
           </Grid>
 
           <Grid container className="home_body padding side_padding">
-            <h1
-              style={{
-                color: colors.primary,
-              }}
-              className="home_body_left"
-            >
-              FARM FRESH COW AND BUFFALO MILK
-            </h1>
+            <div className="home_body_left">
+              <h1
+                style={{
+                  color: colors.primary,
+                }}
+                className="home_body_left_text"
+              >
+                FARM FRESH COW AND BUFFALO MILK
+              </h1>
+            </div>
             <div className="home_body_right home_body_image background_image"></div>
           </Grid>
           <HomeFooter className="home_footer" />

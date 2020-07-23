@@ -10,6 +10,9 @@ const StyledButton = styled(Button)`
   border-radius: 24px !important;
   font-size: 0.8rem !important;
   z-index: 0 !important;
+  @media only screen and (max-width: 700px) {
+    padding: 1vh 2vh !important;
+  }
 `;
 
 export default StyledButton;
