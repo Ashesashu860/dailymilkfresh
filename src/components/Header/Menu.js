@@ -6,12 +6,6 @@ import "./menu.css";
 const StyledUl = styled.ul`
   display: flex;
   align-items: center;
-<<<<<<< HEAD
-=======
-  & > a:not(:last-child) {
-    margin-right: 1.8em;
-  }
->>>>>>> dev
   flex-direction: ${(props) => props.direction};
 `;
 
